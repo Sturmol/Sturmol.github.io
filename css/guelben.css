@@ -8425,16 +8425,35 @@ h2 {
   margin-top: 0px;
   color: #1F93E7; }
 
-h3 a {
+h3 a,h4 a{
   color: inherit; }
-  h3 a:hover {
+  h3 a:hover, h4 a:hover {
     color: #26d0ce; }
 
 p {
   text-align: justify; }
 
-#portfolio {
+#showcase {
   color: #ebad60; }
+  #showcase .showcase-item {
+    margin-bottom: 5vh; }
+  #showcase h4 {
+    color: #f5cf66; }
+    #showcase h4 i {
+      font-size: 0.65em; }
+  #showcase .showcase-media img {
+    width: 100%; }
+  #showcase .tech-tags {
+    margin-top: 0px; }
+    #showcase .tech-tags li {
+      font-size: 1.2em;
+      float: left;
+      padding-right: 20px;
+      color: #f5cf66; }
+      #showcase .tech-tags li::before {
+        content: "#";
+        font-family: "Cutive Mono", monospace;
+        color: #ebad60; }
 
 #services {
   color: #1A2980; }
@@ -8442,8 +8461,11 @@ p {
 #about {
   color: #1A2980; }
 
+code {
+  font-family: "Cutive Mono", monospace; }
+
 .syntax {
-  font-family: "Quicksand";
+  font-family: "Quicksand", sans-serif;
   font-weight: normal;
   color: #1F93E7; }
 
