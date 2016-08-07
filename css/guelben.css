@@ -8388,7 +8388,7 @@ nav {
     color: #1A2980;
     font-size: 4em; }
     nav ul li a:hover {
-      color: white; }
+      color: #CED11A; }
     nav ul li a i {
       width: 50px;
       text-align: center; }
@@ -8435,7 +8435,7 @@ h2 {
 h3 a,h4 a{
   color: #1A2980; }
   h3 a:hover, h4 a:hover {
-    color: #26d0ce; }
+    color: #8bab8d; }
 
 p {
   text-align: justify; }
@@ -8456,7 +8456,7 @@ p {
       font-size: 1.2em;
       float: left;
       padding-right: 20px;
-      color: #f5cf66; }
+      color: #CED11A; }
       #showcase .tech-tags li::before {
         content: "#";
         font-family: "Cutive Mono", monospace;
