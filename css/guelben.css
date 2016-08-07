@@ -8344,7 +8344,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 @media (min-height: 40.125em) {
   .picker--time .picker__box {
-    margin-bottom: 5em; } }
+    margin-bottom: 5em; } 
+  }
 
 body {
   z-index: -2;
@@ -8389,7 +8390,8 @@ nav {
     nav ul li a:hover {
       color: #8bab8d; }
     nav ul li a i {
-      width: 70px; }
+      width: 50px;
+      text-align: center; }
 
 main {
   position: relative;
@@ -8406,6 +8408,11 @@ section {
     margin-top: 100vh; }
   section:last-of-type {
     margin-bottom: 50vh; }
+
+footer {
+  position: relative;
+  top: -20px;
+  height: calc(100vh); }
 
 aside.social .btn-floating {
   background-color: #26d0ce;
