@@ -8418,7 +8418,7 @@ aside.social .btn-floating {
   background-color: #CED11A;
   color: #1A2980; }
   aside.social .btn-floating:hover {
-    background-color: #8bab8d; }
+    background-color: #3EB2FF; }
   aside.social .btn-floating i {
     color: #1A2980; }
 
@@ -8431,11 +8431,13 @@ h1 {
 h2 {
   margin-top: 0px;
   color: #1A2980; }
+h3 {
+  font-size: 3.4em; }
 
 h3 a,h4 a{
   color: #1A2980; }
   h3 a:hover, h4 a:hover {
-    color: #8bab8d; }
+    color: #f5cf66; }
 
 p {
   text-align: justify; }
@@ -8479,13 +8481,13 @@ code {
 .tech-link {
   color: #1A2980; }
   .tech-link:hover {
-    color: #8bab8d; }
+    color: #f5cf66; }
 
 .cta-link {
   font-size: 3em;
   color: #1A2980; }
   .cta-link:hover {
-    color: #8bab8d; }
+    color: #f5cf66; }
 
 .hidden {
   opacity: 0; }
