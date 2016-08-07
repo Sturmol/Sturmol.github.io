@@ -8352,7 +8352,7 @@ body {
   display: inline-block;
   width: 100%;
   background-color: black;
-  background-image: linear-gradient( #1A2980,#1F93E7, #26d0ce);
+  background-image: linear-gradient( #3EB2FF,#CED11A);
   background-repeat: no-repeat;
   font-family: 'Quicksand', sans-serif;
   color: #26d0ce; }
@@ -8385,10 +8385,10 @@ nav {
   nav ul li a {
     display: inline-block;
     width: 100%;
-    color: #26d0ce;
+    color: #1A2980;
     font-size: 4em; }
     nav ul li a:hover {
-      color: #8bab8d; }
+      color: white; }
     nav ul li a i {
       width: 50px;
       text-align: center; }
@@ -8415,8 +8415,8 @@ footer {
   height: calc(100vh); }
 
 aside.social .btn-floating {
-  background-color: #26d0ce;
-  color: #1F93E7; }
+  background-color: #CED11A;
+  color: #1A2980; }
   aside.social .btn-floating:hover {
     background-color: #8bab8d; }
   aside.social .btn-floating i {
@@ -8430,10 +8430,10 @@ h1 {
 
 h2 {
   margin-top: 0px;
-  color: #1F93E7; }
+  color: #1A2980; }
 
 h3 a,h4 a{
-  color: inherit; }
+  color: #1A2980; }
   h3 a:hover, h4 a:hover {
     color: #26d0ce; }
 
@@ -8441,7 +8441,7 @@ p {
   text-align: justify; }
 
 #showcase {
-  color: #ebad60; }
+  color: #1A2980; }
   #showcase .showcase-item {
     margin-bottom: 5vh; }
   #showcase h4 {
@@ -8474,7 +8474,7 @@ code {
 .syntax {
   font-family: "Quicksand", sans-serif;
   font-weight: normal;
-  color: #1F93E7; }
+  color: #1A2980; }
 
 .tech-link {
   color: #1A2980; }
@@ -8483,7 +8483,7 @@ code {
 
 .cta-link {
   font-size: 3em;
-  color: #1F93E7; }
+  color: #1A2980; }
   .cta-link:hover {
     color: #8bab8d; }
 
