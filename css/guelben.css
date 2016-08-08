@@ -8348,9 +8348,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   }
 
 body {
-  z-index: -2;
-  display: inline-block;
-  width: 100%;
+  position: relative;
   background-color: black;
   background-image: linear-gradient( #3EB2FF,#CED11A);
   background-repeat: no-repeat;
@@ -8373,32 +8371,30 @@ header {
 nav {
   padding-top: 20px;
   width: 100%;
+  position: relative;
   background-color: transparent;
   box-shadow: none; }
   nav ul li {
-    display: inline-block;
-    height: 100%;
-    width: 100%; }
+    float: none;}
     nav ul li:hover {
       transition: none;
       background-color: transparent; }
   nav ul li a {
     display: inline-block;
-    width: 100%;
     color: #1A2980;
     font-size: 4em; }
     nav ul li a:hover {
       color: #CED11A; }
+    nav ul li a:hover .section-nav-label {
+      opacity: 0.5 }
     nav ul li a i {
       width: 50px;
       text-align: center; }
 
+
 main {
   position: relative;
-  top: 0px;
-  bottom: 180px;
-  width: 100%;
-  overflow-y: auto; }
+}
 
 section {
   min-height: 100vh;
@@ -8498,3 +8494,20 @@ code {
 strong {
   font-weight: bold; }
 
+
+/* Particles */
+
+.particles-wrap {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.particles-wrap-top {
+  top: 0;
+}
+
+.particles-wrap-btm {
+  bottom: 0;
+}
