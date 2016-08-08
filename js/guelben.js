@@ -41,17 +41,17 @@
 
     $('.slider').slider({full_width: true});
 
-    $('#nav, footer').on('scrollSpy:enter', function () {
+    $('.particles-wrap, footer').on('scrollSpy:enter', function () {
       $('.main-title-header').show('pulsate');
       console.log('enter');
     });
 
-    $('#nav, footer').on('scrollSpy:exit', function () {
+    $('.particles-wrap, footer').on('scrollSpy:exit', function () {
       $('.main-title-header').hide('pulsate');
       console.log('exit');
     });
 
-    $('#nav, footer').scrollSpy();
+    $('.particles-wrap, footer').scrollSpy();
   });
 
 }());

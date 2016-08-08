@@ -8385,8 +8385,6 @@ nav {
     font-size: 4em; }
     nav ul li a:hover {
       color: #CED11A; }
-    nav ul li a:hover .section-nav-label {
-      opacity: 0.5 }
     nav ul li a i {
       width: 50px;
       text-align: center; }
