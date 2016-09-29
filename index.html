@@ -11,33 +11,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
 <body>
-  <nav>
-    <div class="navbar-wraper">
-      
-      <div class="navbar-header">
-        <button>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar_wraper">
+      <div class="navbar_header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <i class="fa fa-bars"></i>
         </button>
-        <a href="#"><h2>Sturmol</h2></a>
+        <a clas href="#"><h2>Sturmol</h2></a>
       </div>
-      <div>
-        <ul class="">
-          <li><a id="cov" href="#cover">Home</a></li>
-          <li><a id="ser" href="#services">Services</a></li>
-          <li><a id="wor" href="#work">Work</a></li>
-          <li><a id="ski" href="#skills">Skills</a></li>
-          <li><a id="con" href="#contac">Contact</a></li>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar_list">
+          <li class="navbar_item"><a id="cov" href="#cover">Home</a></li>
+          <li class="navbar_item"><a id="ser" href="#services">Services</a></li>
+          <li class="navbar_item"><a id="wor" href="#work">Work</a></li>
+          <li class="navbar_item"><a id="ski" href="#skills">Skills</a></li>
+          <li class="navbar_item"><a id="con" href="#contac">Contact</a></li>
         </ul>
       </div>
-
     </div>
   </nav>
 
-  <section id="cover">
+  <section id="cover" data-parallax="scroll" data-speed="0.5" data-image-src="/images/bg-cover2.jpeg">
+    <div class="cover_overlay"></div>
     <p>Hello, my name is Miguel and I am</p>
     <h1>Frontend developer</h1>
     <p>currently learning to code at <a href="https://www.freecodecamp.com">FreeCodeCamp</a> and creating modern and responsive Web Applications</p>
-
+    <a href="#services" id="down-arrow"><i class="fa fa-angle-down animated infinite"></i></a>
   </section>
 
   <section id="services">
