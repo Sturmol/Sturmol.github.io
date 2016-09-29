@@ -2,78 +2,83 @@
 /*      BASE CSS START      */
 
 body {
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
-.navbar_wraper {
-    width: 90%;
-    margin: 0 auto;
+.mycontainer {
+  width: 90%;
+  margin: 0 auto;
 }
 
 section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 hr {
-    width: 150px;
-    border-color: #263238;
+  width: 150px;
+  border-color: #263238;
 }
 
 h1 {
-    font-size: 40px;
-    line-height: 55px;
-    font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: 900;
 }
 
 h2 {
-    font-size: 30px;
-    line-height: 45px;
-    margin-top: 40px;
-    font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  margin-top: 40px;
+  font-weight: 600;
 }
 
 h3 {
-    font-size: 25px;
-    line-height: 40px;
-    width: 60%;
-    margin: 0 auto;
-    font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  width: 60%;
+  margin: 0 auto;
+  font-weight: 400;
 }
 
 h4 {
-    font-size: 20px;
-    line-height: 35px;
-    font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 400;
 }
 
 h5 {
-    font-size: 15px;
-    line-height: 30px;
-    font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
 }
 
 p {
-    font-size: 20px;
-    font-weight: 200;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
+  margin: 5px 0;
+  overflow: hidden;
 }
 
 li {
-    display: inline-block;
+  display: inline-block;
 }
 
 li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .animated {
-    opacity : 0;
-    transition: all .8s ease-in;
+  opacity : 0;
+  transition: all .8s ease-in;
+  animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  -webkit-animation-duration: .5s;
 }
 
 /* NAVIGATION */
@@ -111,11 +116,11 @@ nav h2:hover {
   cursor: pointer;
 }
 
-/* #myNavbar {
+#myNavbar {
   margin: 0;
   padding: 0;
 }
-*/
+
 .navbar_item {
   margin: 0 10px;
 }
