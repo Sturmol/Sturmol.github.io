@@ -254,13 +254,49 @@ figure:hover {
 /* Hire Me section */
 
 #hiredMe {
-
+  background-color: #263238;
+  height: 260px;
+  width: 100vw;
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
 }
 
+#hiredMe .btn {
+  width: 20%;
+  min-width: 100px;
+}
 
+#hiredMe .btn:hover {
+  color: white;
+  background-color: #263238;
+  border: 1px solid #fff;
+}
 
+/* Contact section */
 
+#contact form {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
 
+input, textarea {
+  margin: 10px 0;
+}
+
+.form-control {
+  border: 1px solid #263238;
+}
+
+#contact .btn {
+  width: 100%;
+  border: 1px solid #263238;
+}
+#contact .btn:hover {
+  background-color: #263238;
+  color: #fff;
+}
 
 
 
