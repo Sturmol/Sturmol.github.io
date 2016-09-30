@@ -1,10 +1,89 @@
 $(document).ready(function () {
 
-  // page animations using waypoint.js
+
+//Smooth scroll function
+
+$(function () {
+  $('a[href*="#"]:not([href="#"])').click(function () {
+    if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+    
+//Smooth scroll function ends.
+
+
+//Menu display toggle function.
+
+var pageHeight = $(document).height();
+var winHeight = $(window).height();
+var coverHeight = $('#cover').innerHeight();
+
+
+// hide .navbar first
+$(".navbar").hide();
+// fade in .navbar
+$(function () {
+    $(window).scroll(function () {
+        // set distance user needs o scroll before we fadeIn navbar
+        if ($(this).scrollTop() > coverHeight - 1) {
+            $('.navbar').fadeIn('medium');
+        }
+        else {
+            $('.navbar').fadeOut('medium');
+        }
+    });
+});
+
+
+});
+
+// page animations using waypoint.js
   var animate = $('.animated');
 
   animated.waypoint(function(){
     $(this.element).addClass($(this.element),data("animate")).css('opacity','1');
   }, {offset: '90%'});
 
+
+//Navbar scrollspy using Waypoints.js.
+
+var section = $('section');
+
+section.waypoint(function(){
+  var switchId = $(this.element).attr('id');
+  console.log(switchId);
+  
+  switch(switchId){
+    case 'cover':
+        $('#cov').focus();
+    break;
+        
+    case 'services':
+        $('#ser').focus();
+    break;
+        
+    case 'works':
+        $('#wor').focus();
+    break;
+        
+    case 'skills':
+        $('#ski').focus();
+    break;
+        
+    case 'contact':
+        $('#con').focus();
+    break;
+    }
 });
+
+
+//Navbar scrollspy ends.

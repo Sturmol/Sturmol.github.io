@@ -76,7 +76,7 @@ li a {
 }
 
 .animated {
-  opacity : 0;
+  opacity : 1;
   transition: all .8s ease-in;
   animation-duration: .5s;
   -moz-animation-duration: .5s;
@@ -253,7 +253,9 @@ figure:hover {
 
 /* Hire Me section */
 
+#hiredMe {
 
+}
 
 
 
