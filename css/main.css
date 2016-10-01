@@ -594,4 +594,30 @@ footer h4  {
     color: #fff;
 }
 
+/*      Form Submit page styling        */
+
+.form-submitted {
+    background-color: #263238;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    display: table-cell;
+    width: 100vw;
+    height: 100vh;
+    vertical-align: middle;
+}
+
+.form-submitted .animated{
+    opacity: 1;
+}
+
+.form-submitted .btn {
+    width: 20%;
+    min-width: 100px;
+}
+
+.form-submitted .btn:hover {
+    background-color: #263238;
+    color: white;
+    border: 1px solid white;
+}
 
