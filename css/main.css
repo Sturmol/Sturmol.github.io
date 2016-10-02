@@ -4,100 +4,95 @@
 /*      BASE CSS START      */
 
 body {
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    overflow-x: hidden;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
 }
 
 .mycontainer {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 hr {
-    width: 150px;
-    border-color: #263238;
+  width: 150px;
+  border-color: #263238;
 }
 
 h1 {
-    font-size: 40px;
-    line-height: 55px;
-    font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: 900;
 }
 
 h2 {
-    font-size: 30px;
-    line-height: 45px;
-    margin-top: 40px;
-    font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  margin-top: 40px;
+  font-weight: 600;
 }
 
 h3 {
-    font-size: 25px;
-    line-height: 40px;
-    width: 60%;
-    margin: 0 auto;
-    font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  width: 60%;
+  margin: 0 auto;
+  font-weight: 400;
 }
 
 h4 {
-    font-size: 20px;
-    line-height: 35px;
-    font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 400;
 }
 
 h5 {
-    font-size: 15px;
-    line-height: 30px;
-    font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
 }
 
 p {
-    font-size: 20px;
-    font-weight: 300;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 ul {
-    list-style-type: none;
-    margin: 5px 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 5px 0;
+  overflow: hidden;
 }
 
 li {
-    display: inline-block;
+  display: inline-block;
 }
 
 li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .animated {
-    opacity : 0;
-    transition: opacity .8s ease-in;
-    animation-duration: .5s;
-    -moz-animation-duration: .5s;
-    -webkit-animation-duration: .5s;
+  opacity : 0;
+  transition: opacity .8s ease-in;
+  animation-duration: .5s;
+  -moz-animation-duration: .5s;
+  -webkit-animation-duration: .5s;
 }
 
 @media (max-width: 650px) {
-    h3 {
-        font-size: 20px;
-        width: 90%;
-    }
+  h3 {
+    font-size: 20px;
+    width: 90%;
+  }
 }
 
-
-/*img {
-    margin-top: 50px;
-}*/
-
 form {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 
@@ -107,116 +102,121 @@ form {
 /*      Navigation Menu start       */
 
 .navbar-one {
-    background-color: transparent;
-    /*background-color: rgba(81, 117, 192, 0.8);*/
-    position: absolute;
-    width: 100%;
-    z-index: 10;
-    top: 0;
-    padding: 0;
-    margin: 0;
-    color: white;
-    animation-delay: 0.5s;
-    animation-duration: 1.5s;
-    -moz-animation-delay: 0.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-delay: 0.5s;
-    -webkit-animation-duration: 1.5s;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  color: white;
+  animation-delay: 0.5s;
+  animation-duration: 1.5s;
+  -moz-animation-delay: 0.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-duration: 1.5s;
 }
 
 .color-toggle {
-    background-color: #263238;
+  background-color: #263238;
 }
 
 .navbar-default {
-    border: none;
+  border: none;
 }
 
 .navbar h2 {
-    padding: 0;
-    margin: 0;
-    font-family: 'Lobster';
-    color: white;
-    line-height: 25px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway';
+  color: white;
+  line-height: 25px;
+}
+.navbar-header {
+  padding-top: 5px;
 }
 
+.navbar-right {
+  padding-top: 7px;
+}
 .navbar-toggle {
-    width: 40px;
-    height: 40px;
-    padding: 2px;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
 }
 
 .navbar-toggle:hover,
 .navbar-toggle:focus {
-    background-color: #263238 !important;
-    color: inherit;
+  background-color: #263238 !important;
+  color: inherit;
 }
 
 nav h2:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #myNavbar1 {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #myNavbar1 li {
-    padding: 0 10px 0 10px;
-    margin: 0 10px 0 10px;
+  padding: 0 10px 0 10px;
+  margin: 0 10px 0 10px;
 }
 
 #myNavbar1 a {
-    background: inherit;
-    color: #ffffff;
-    font-size: 15px;
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding: 10px 0;
-    margin: 0 5px;
+  background: inherit;
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px 0;
+  margin: 0 5px;
 }
 
 #myNavbar1 a:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 2px;
-    width: 0px;
-    background: transparent;
-    border-radius: 6px;
-    transition: width .3s ease, background-color .3s ease;
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  background: transparent;
+  border-radius: 6px;
+  transition: width .3s ease, background-color .3s ease;
 }
 
 #myNavbar1 a:hover:after {
-    width: 100%;
-    background: white;
-    cursor: pointer;
-    color: white;
-    text-decoration: none;
+  width: 100%;
+  background: white;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
 
 #myNavbar1 a:focus:after {
-    width: 100%;
-    background: white;
-    outline: none;
+  width: 100%;
+  background: white;
+  outline: none;
 }
 
 #myNavbar1 a:focus {
-    outline: none;
+  outline: none;
 }
 
 @media (max-width: 760px) {
-    #myNavbar1 a {
-        width: 60vw;
-    }
-    #myNavbar1 a {
-        width: 60vw;
-        display: block;
-    }
-    #myNavbar1 a:hover {
-        cursor: pointer;
-    }
+  #myNavbar1 a {
+    width: 60vw;
+  }
+  #myNavbar1 a {
+    width: 60vw;
+    display: block;
+  }
+  #myNavbar1 a:hover {
+    cursor: pointer;
+  }
 }
 
 
@@ -227,106 +227,106 @@ nav h2:hover {
 
 
 .navbar-two {
-    background-color: #263238;
-    /*background-color: rgba(81, 117, 192, 0.8);*/
-    border-radius: 0px;
-    position: relative;
-    width: 100%;
-    z-index: 10;
-    top: 0;
-    padding: 0;
-    margin: 0;
-    color: white;
-    animation-delay: 0.1s;
-    -moz-animation-delay: 0.1s;
-    -webkit-animation-delay: 0.1s;
+  background-color: #263238;
+
+  border-radius: 0px;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  color: white;
+  animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
 }
 
 .navbar-two .navbar-default {
-    border: none;
+  border: none;
 }
 
 .navbar-two .navbar h2 {
-    padding: 0;
-    margin: 0;
-    font-family: 'Lobster', cursive;
-    color: white;
-    line-height: 25px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  color: white;
+  line-height: 25px;
 }
 
 .navbar-two .navbar-toggle {
-    width: 40px;
-    height: 40px;
-    padding: 2px;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
 }
 
 .navbar-two .navbar-toggle:hover,
 .navbar-two .navbar-toggle:focus {
-    background-color: white !important;
-    color: #263238;
+  background-color: white !important;
+  color: #263238;
 }
 
 #myNavbar2 {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #myNavbar2 li {
-    padding: 0 10px 0 10px;
-    margin: 0 10px 0 10px;
+  padding: 0 10px 0 10px;
+  margin: 0 10px 0 10px;
 }
 
 #myNavbar2 a {
-    background: inherit;
-    color: #ffffff;
-    font-size: 15px;
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding: 10px 0;
-    margin: 0 5px;
+  background: inherit;
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px 0;
+  margin: 0 5px;
 }
 
 #myNavbar2 a:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 2px;
-    width: 0px;
-    background: transparent;
-    border-radius: 6px;
-    transition: width .3s ease, background-color .3s ease;
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  background: transparent;
+  border-radius: 6px;
+  transition: width .3s ease, background-color .3s ease;
 }
 
 #myNavbar2 a:hover:after {
-    width: 100%;
-    background: white;
-    cursor: pointer;
-    color: white;
-    text-decoration: none;
+  width: 100%;
+  background: white;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
 
 #myNavbar2 a:focus:after {
-    width: 100%;
-    background: white;
-    outline: none;
+  width: 100%;
+  background: white;
+  outline: none;
 }
 
 #myNavbar2 a:focus {
-    outline: none;
+  outline: none;
 }
 
 @media (max-width: 760px) {
-    #myNavbar2 a {
-        width: 60vw;
-    }
-    #myNavbar2 a {
-        width: 60vw;
-        display: block;
-    }
-    #myNavbar2 a:hover {
-        cursor: pointer;
-    }
+  #myNavbar2 a {
+    width: 60vw;
+  }
+  #myNavbar2 a {
+    width: 60vw;
+    display: block;
+  }
+  #myNavbar2 a:hover {
+    cursor: pointer;
+  }
 }
 
 
@@ -337,60 +337,60 @@ nav h2:hover {
 
 
 #cover {
-    width: 100vw;
-    height: 100vh;
-    display: table-cell;
-    vertical-align: middle;
-    z-index: 1;
-    color: white;
-    position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 1;
+  color: white;
+  position: relative;
 }
 
 #cover a {
-    color: white;
+  color: white;
 }
 
 .cover-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    -webkit-filter: blur(0.7px);
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background-image: url(images/pattern.png);
-    background-repeat: repeat;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  -webkit-filter: blur(0.7px);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(images/pattern.png);
+  background-repeat: repeat;
 }
 
 #cover #down-arrow {
-    font-size: 60px;
-    position: absolute;
-    margin: 0 auto;
-    left: 50%;
-    bottom: 5%;
-    transform: translate(-50%, -50%);
-    height: 50px;
-    width: 50px;
-    z-index: 10;
+  font-size: 60px;
+  position: absolute;
+  margin: 0 auto;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%, -50%);
+  height: 50px;
+  width: 50px;
+  z-index: 10;
 }
 
 #cover i {
-    animation-duration: 2.5s;
-    -webkit-animation-duration: 2.5s;
-    -moz-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-duration: 2.5s;
+  -moz-animation-duration: 2.5s;
 }
 
 #cover #down-arrow:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #cover .zoomIn {
-    animation-delay: 0.5s;
-    animation-duration: 1.5s;
-    -moz-animation-delay: 0.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-delay: 0.5s;
-    -webkit-animation-duration: 1.5s;
+  animation-delay: 0.5s;
+  animation-duration: 1.5s;
+  -moz-animation-delay: 0.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-duration: 1.5s;
 }
 
 
@@ -400,15 +400,15 @@ nav h2:hover {
 /*      Services Section start      */
 
 #services {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 .services-card {
-    background-color: white;
-    margin: 15px auto;
-    border-bottom: 2px solid #263238;
-    border-radius: 5px;
-    padding: 0 15px;
+  background-color: white;
+  margin: 15px auto;
+  border-bottom: 2px solid #263238;
+  border-radius: 5px;
+  padding: 0 15px;
 }
 
 /*.services-card:hover {
@@ -421,21 +421,21 @@ nav h2:hover {
 }*/
 
 #services .row {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 #services img {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 #services h4 {
-    font-size: 16px;
-    font-weight: 600;
-    color: #263238;
+  font-size: 16px;
+  font-weight: 600;
+  color: #263238;
 }
 
 #services h5 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 
@@ -445,28 +445,28 @@ nav h2:hover {
 /*      Work Section Start     */
 
 #works img {
-    padding: 0;
-    width: auto;
-    height: auto;
-    border-radius: 5px;
+  padding: 0;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
 }
 
 figure {
-    border-radius: 5px;
-    border: 1px solid #263238;
+  border-radius: 5px;
+  border: 1px solid #263238;
 }
 
 figure:hover {
-    box-shadow: 0px 1px 2px #263238;
-    border: 1px solid #263238;
+  box-shadow: 0px 1px 2px #263238;
+  border: 1px solid #263238;
 }
 
 #works .col-lg-4 {
-    padding: 10px;
+  padding: 10px;
 }
 
 #works .row {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 
@@ -476,11 +476,18 @@ figure:hover {
 /*      Skills Section start        */
 
 #skills {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
-img .svg path {
-    fill: grey;
+.svg {
+  filter: grayscale(100%);
+  transition: -webkit-filter .4s,opacity .4s,filter .4s,opacity .4s;
+  opacity: 0.8;
+}
+
+.svg:hover {
+  filter: none;
+  opacity: 1;
 }
 
 
@@ -490,23 +497,23 @@ img .svg path {
 /*      hire-me Section starts      */
 
 #hire-me {
-    background-color: #263238;
-    height: 300px;
-    width: 100vw;
-    display: table-cell;
-    vertical-align: middle;
-    color: white;
+  background-color: #263238;
+  height: 250px;
+  width: 100vw;
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
 }
 
 #hire-me .btn {
-    width: 20%;
-    min-width: 100px;
+  width: 20%;
+  min-width: 100px;
 }
 
 #hire-me .btn:hover {
-    background-color: #263238;
-    color: white;
-    border: 1px solid white;
+  background-color: #263238;
+  color: white;
+  border: 1px solid white;
 }
 
 
@@ -517,36 +524,36 @@ img .svg path {
 /*      Contact Section starts      */
 
 #contact form {
-    padding-top: 30px;
-    width: 50%;
-    margin: 0 auto;
+  padding-top: 30px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 input,
 textarea {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .form-control {
-    border: 1px solid #263238;
+  border: 1px solid #263238;
 }
 
 #contact .btn {
-    width: 100%;
-    margin: 10px 0;
-    padding: 10;
-    border: 1px solid #263238;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10;
+  border: 1px solid #263238;
 }
 
 #contact .btn:hover {
-    background-color: #263238;
-    color: white;
+  background-color: #263238;
+  color: white;
 }
 
 @media (max-width: 650px) {
-    #contact form {
-        width: 90%;
-    }
+  #contact form {
+    width: 90%;
+  }
 }
 
 
@@ -556,69 +563,69 @@ textarea {
 /*      Footer starts      */
 
 footer {
-    background-color: #263238;
-    padding: 20px;
-    color: white;
+  background-color: #263238;
+  padding: 20px;
+  color: white;
 }
 
 footer ul {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 footer li {
-    margin: 10px;
-    width: 40px;
-    height: 40px;
-    border-radius: 4px;
-    background-color: white;
-    border: 1px solid white;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid white;
 }
 
 footer li:hover {
-    background-color: #263238;
+  background-color: #263238;
 
 }
 
 footer li i {
-    width: 40px;
-    height: 40px;
-    padding: 5px;
-    color: #263238;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  color: #263238;
 }
 
 footer li i:hover {
-    color: white;
-    cursor: #263238;
+  color: white;
+  cursor: #263238;
 }
 
 footer h4  {
-    color: #fff;
+  color: #fff;
 }
 
 /*      Form Submit page styling        */
 
 .form-submitted {
-    background-color: #263238;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    display: table-cell;
-    width: 100vw;
-    height: 100vh;
-    vertical-align: middle;
+  background-color: #263238;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  display: table-cell;
+  width: 100vw;
+  height: 100vh;
+  vertical-align: middle;
 }
 
 .form-submitted .animated{
-    opacity: 1;
+  opacity: 1;
 }
 
 .form-submitted .btn {
-    width: 20%;
-    min-width: 100px;
+  width: 20%;
+  min-width: 100px;
 }
 
 .form-submitted .btn:hover {
-    background-color: #263238;
-    color: white;
-    border: 1px solid white;
+  background-color: #263238;
+  color: white;
+  border: 1px solid white;
 }
 
