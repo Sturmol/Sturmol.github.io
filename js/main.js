@@ -1,7 +1,6 @@
 $(document).ready(function () {
-    
+
     //Smooth scroll function
-    
     $(function () {
         $('a[href*="#"]:not([href="#"])').click(function () {
             if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
@@ -43,8 +42,6 @@ $(document).ready(function () {
             }
         });
     });
-    
-    
     //Menu display toggle function ends.
     
     //Navbar One color adjustment on toggle.
@@ -74,9 +71,6 @@ animated.waypoint(function(){
 { offset: '90%' });
 
 //Page animations end
-
-
-
 
 //Navbar scrollspy using Waypoints.js.
 
